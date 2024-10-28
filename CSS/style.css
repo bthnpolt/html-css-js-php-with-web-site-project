@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+#menu{
+    height: 80px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#brand{
+    font-size: 30px;
+    line-height: 80px;
+    color: #003666;
+}
+
+nav{
+    line-height: 80px;
+}
+
+nav a:link{
+    font-size: 16px;
+    text-decoration: none;
+    margin-right: 25px;
+    color: #003666;
+}
+
+nav a:hover{
+    border-bottom: 2px solid #003666;
+}
+
+nav a:visited{
+    font-size: 16px;
+    text-decoration: none;
+    margin-right: 25px;
+    color: #003666;
+}
+
+.icon{
+   margin-right: 7px;
+   font-size: 16px;
+}
+
+#banner{
+    height: 600px;
+    background-image: url("../assets/bridge.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#black{
+    height: 600px;
+    background-color: black;
+    opacity: 0.5;
+
+}
+
+#content{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    font-size: 20px;
+}
+
+#about{
+    background-color: #f8f9fa;
+    padding: 50px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+h3{
+    font-size: 55px;
+    color: #003666;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+.container{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+}
+
+#left{
+    float: left;
+    border-right: 3px solid #445c6e;
+    font-size: 25px;
+    width: 400px;
+    color: #003666;
+    margin-bottom: 15px;
+}
+
+#h5-sol{
+    line-height: 1.6;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+#h5-sol, #right{
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+}
+
+span{
+    font-size: 50px;
+    margin-left: 40px;
+    line-height: 42px;
+    color: #003666;
+    font-weight: 600;
+}
+
+#right{
+    display: flex;
+    width: 750px;
+    padding-left: 10px;
+    color: #999999;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.img-fluid{
+    min-width: 100%;
+    height: 400px;
+}
+
+.mt100{
+    margin-top: 100px;
+}
+
+#end-p{
+    color: #999;
+    letter-spacing: 1px;
+    font-size: 15px;
+    line-height: 1.8;
+    margin-top: 30px;
+}
+
+#educations{
+    background-color: #fff;
+    padding: 50px;
+    text-align: center;
+    height: 700px;
+}
+
+.card{
+    width: 380px;
+    height: 380px;
+    border: 1px solid #ddd;
+    padding: 0;
+    display: inline-block;
+}
+
+.card:hover{
+    border: 1px solid gray;
+    cursor: pointer;
+}
+
+.card img{
+    width: 100%;
+    height: 70%;
+}
+
+.card-header{
+    font-size: 15px;
+    color: #003666;
+}
+
+.card-info{
+    color: #888;
+}
