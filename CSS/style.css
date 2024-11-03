@@ -190,7 +190,7 @@ span{
     color: #888;
 }
 
-#contact{
+.contact-container{
     background: url('../assets/iletisim.jpg');
     background-size: cover;
     padding: 50px;
@@ -198,38 +198,48 @@ span{
     text-align: center;
 }
 
-#h3-contact{
-    color: #fff;
-}
-
-#contact-opacity{
-    background-color: rgba(255, 255, 255, 0.2);
-    padding: 30px 20px;
+.container-opacity{
+    background: rgba(255, 255, 255, 0.2);
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-#form-group{
-    width: 700px;
-    float: left;
-    height: 500px;
+.form-group{
+    padding: 30px 20px;
     text-align: left;
+    display: flex;
+    flex-direction: column;
 }
 
-#left-form{
-    width: 50%;
-    float: left;
-}
+.adress-info{
+    text-align: left;
 
-#right-form{
-    width: 50%;
-    float: right;
 }
 
 .form-control{
-    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#button{
+    width: 25%;
     padding: 10px;
-    font-size: 15px;
-    line-height: 1.5;
-    color: #495087;
-    background-color: #fff;
+    font-size: 20px;
+    margin-top: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#textarea{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.adress-info{
+    font-size: 20px;
+    
 }

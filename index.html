@@ -81,31 +81,30 @@
     </section>
 
     <section id="contact">
-        <div class="container">
-            <h3 id="h3-contact">Bizimle İletişme Geçin</h3>
-            <div id="contact-opacity">
-                <div id="form-group">
-                    <div id="left-form">
-                        <input class="form-control" type="text" name="name" placeholder="Ad-Soyad" required>
-                        <input class="form-control" type="text" name="phone" placeholder="Telefon Numarası" required>
-                    </div>
-                    <div id="right-form">
-                        <input class="form-control" type="email" name="email" placeholder="Email" required>
-                        <input class="form-control" type="text" name="subject" placeholder="Konu Başlığı" required>
-                    </div>
-                </div>
-                <textarea name="message" class="form-control" id="" placeholder="Mesajinınızı Giriniz" cols="30" rows="10"></textarea>
-                <input type="submit" value="Gönder">
-                <div id="adress">
-                    <h4>Adres : </h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-                    <p>02120000000</p>
-                    <p>loremipsum@gmail.com</p>
-                </div>
+      <div class="contact-container">
+       <div class="container-opacity">
+         <div class="form-group">
+            <div class="left-group">
+                <input type="text" name="name" placeholder="Ad Soyad" class="form-control">
+                <input type="text" name="phone" placeholder="Telefon Numarası" class="form-control">
             </div>
+            <div class="right-group">
+                <input type="email" name="email" placeholder="Email Adresi" class="form-control">
+                <input type="text" name="subject" placeholder="Konu Başlığı" class="form-control">
+            </div>
+            <textarea name="message" cols="30" rows="10" id="textarea"></textarea>
+            <input type="submit" value="Gönder" id="button">
+         </div>
+           <div class="adress-info">
+                <h2>Adres :</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p>02120000000</p>
+                <p>loremipsum@gmail.com</p>
+           </div>
         </div>
+    </div>
     </section>
 
     <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
