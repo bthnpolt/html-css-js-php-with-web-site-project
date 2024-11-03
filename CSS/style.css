@@ -189,3 +189,47 @@ span{
 .card-info{
     color: #888;
 }
+
+#contact{
+    background: url('../assets/iletisim.jpg');
+    background-size: cover;
+    padding: 50px;
+    height: auto;
+    text-align: center;
+}
+
+#h3-contact{
+    color: #fff;
+}
+
+#contact-opacity{
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 30px 20px;
+    border-radius: 10px;
+}
+
+#form-group{
+    width: 700px;
+    float: left;
+    height: 500px;
+    text-align: left;
+}
+
+#left-form{
+    width: 50%;
+    float: left;
+}
+
+#right-form{
+    width: 50%;
+    float: right;
+}
+
+.form-control{
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #495087;
+    background-color: #fff;
+}
